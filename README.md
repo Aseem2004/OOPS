@@ -1,1 +1,21 @@
 # OOPS
+
+<ul>
+<li><b>Object Oriented Programing:</b>
+Better way of writing code, implemented in real world problems. The main aim of OOP is to bind together the data and the functions that operate on them so that no other part of the code can access this data except that function.</li>
+
+<li><b>Objects:</b>Entities in the real world. It has properties/attributes and member functions/methods that the object of the class would contain. They can be accessed and used by creating an instance of that class.</li>
+
+<li><b>Class:</b>Blueprint of the entities
+<br>
+A blueprint for a house design is like a class description. All the houses built from that blueprint are objects of that class. A given house is an instance.</li>
+
+<li><b>Access Modifiers:</b>
+<ol>
+<li>Private:data and methods accessible inside class.</li>
+<li>Public:data and methods accessible everywhere.</li>
+<li>Protected:data and methods accessible inside class and to its derived class.</li>
+</ol>
+</li>
+
+</ul>
