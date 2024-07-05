@@ -20,5 +20,27 @@ A blueprint for a house design is like a class description. All the houses built
 
 <li><b>Encapsulation:</b>
 It is the wrapping up of data and member functions in a single unit called class. It is used for data hiding by specifying private access modifier.</li>
+<br>
 
+<li><b>Constructors:</b>
+Special method invoked automatically at time of object creation. Used for initialisation of certain data.
+  <ul>
+    <li>Same name as class.</li>
+    <li>Only called once, at time of object creation(automatic).</li>
+    <li>Doesn't have a return type.</li>
+    <li>Used for memory allocation, as class does't occupy space but when an object is created, it does.</li>
+    <li>Three types of construtors:
+      <ul>
+        <li>Non-parameterized: No parameters inside the constructor are specified.</li>
+        <li>Parameterized: Any number of parameters are specified.<br>
+        ---> this pointer: Special pointer in C++ pointing towards current object.
+          <br>
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          this->prop same as*(this).prop.
+        </li>
+        <li>Copy: Used to copy properties of one object into another.</li>
+      </ul>
+    </li>
+  </ul>
+</li>
 </ul>
