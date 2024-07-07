@@ -97,4 +97,29 @@ Types of inheritance:
 </ul>
 </li>
 </ul>
+<br>
+<li>
+<b>Polymorphism: </b>Ability of objects to take on different forms or behave in different ways depending on context in which they are used.<br>
+Types of polymorphism:
+<ul>
+<li>Compile time polymorphism:
+<ul>
+<li>Constructor Overloading</li>
+<li>Function Overloading, where two functions are created with same name but different parameters(difference in no of parameters or difference in type of parameters).</li>
+</ul> 
+</li>
+<li>Run time polymorphism:
+<ul>
+<li>Function Overriding: Parent and Child both contain same function with different implementation. Parent class function is said to be overriden. Priority more for child class.</li>
+<li>Virtual Functions: It is a member function that is expected to be redefined in derived class.
+<ul>
+<li>Are dynamic in nature.</li>
+<li>Defined by keyword 'virtual' inside a base class and are always declared with base class and overriden in child class.</li>
+<li>Called during runtime.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
