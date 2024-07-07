@@ -47,4 +47,54 @@ Special method invoked automatically at time of object creation. Used for initia
 </li>
 <br>
 <li><b>Destructor:</b> Used to deallocate memory. Automatically called up for shallow copies. For deep copies need to use the 'delete' keyword for freeing up memory allocated at run time.</li>
+<br>
+<li><b>Inheritance:</b>When properties and member functions of base/parent class are passed to derived/child class.</li>
+<ul>
+<li>Constructors of parent class are invoked first, then of child class.</li>
+<li>Destructors of child class are invoked first, then of parent class.</li>
+<li>Modes of inheritance:
+<table>
+<tr>
+<td></td>
+<td>Derived Class</td>
+<td>Derived Class</td>
+<td>Derived Class</td>
+</tr>
+<tr>
+<td>Base Class</td>
+<td>Private Mode</td>
+<td>Protected Mode</td>
+<td>Public Mode</td>
+</tr>
+<tr>
+<td>Private Mode</td>
+<td>No inheritance</td>
+<td>No inheritance</td>
+<td>No inheritance</td>
+</tr>
+<tr>
+<td>Protected Mode</td>
+<td>Private</td>
+<td>Protected</td>
+<td>Protected</td>
+</tr>
+<tr>
+<td>Public Mode</td>
+<td>Private</td>
+<td>Protected</td>
+<td>Public</td>
+</tr>
+</table>
+</li>
+<li>
+Types of inheritance:
+<ul>
+<li>Single Inheritance: Parent-->Child</li>
+<li>Multi level Inheritance: Parent->Parent-->Child</li>
+<li>Multiple Inheritance: Parent+Parent-->Child</li>
+<li>Hierarchical Inheritance: Parent-->Child+Child</li>
+<li>Hybrid Inheritance: Mix of all categories</li>
+</ul>
+</li>
+</ul>
 </ul>
