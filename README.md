@@ -45,4 +45,6 @@ Special method invoked automatically at time of object creation. Used for initia
     <li>Deep Copy: Not only copies the member values but also makes copies of dynamically allocated memory that pointer points to. It creates a copy of that memory in heap so that changes in one doesn't reflect in changes in another.</li>
   </ul>
 </li>
+<br>
+<li><b>Destructor:</b> Used to deallocate memory. Automatically called up for shallow copies. For deep copies need to use the 'delete' keyword for freeing up memory allocated at run time.</li>
 </ul>
