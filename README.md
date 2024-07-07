@@ -41,6 +41,8 @@ Special method invoked automatically at time of object creation. Used for initia
         <li>Copy: Used to copy properties of one object into another.</li>
       </ul>
     </li>
+    <li>Shallow Copy: Copies all of the member values from one object to another.</li>
+    <li>Deep Copy: Not only copies the member values but also makes copies of dynamically allocated memory that pointer points to. It creates a copy of that memory in heap so that changes in one doesn't reflect in changes in another.</li>
   </ul>
 </li>
 </ul>
