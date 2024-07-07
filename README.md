@@ -122,4 +122,17 @@ Types of polymorphism:
 </li>
 </ul>
 </li>
+<br>
+<li><b>Abstraction:</b>
+<ul>
+<li>Hiding all unneccesary details and showing only important parts, eg is access modifiers which specifies what to showand what not to show.</li>
+<li>Can be implemented by using abstract classes:
+<ul>
+<li>Abstract classes are meant to providebase class from which other classes can be derived.</li>
+<li>Cannot be instantiated and are meant to be inherited.</li>
+<li>Are used to define an interface for derived classes.</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
